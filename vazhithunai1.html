@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vazhithunai - Women Safety</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #ff4d6d;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .mission p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .contact form input, 
+        .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact form button {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #e03e5f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>வழித்துணை - Vazhithunai</h1>
+    <p>Your Companion for Safe Routes</p>
+</header>
+
+<nav>
+    <a href="#mission">Mission</a>
+    <a href="#navigation">Navigation Demo</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="mission" class="mission">
+    <h2>Our Mission</h2>
+    <p>
+        Vazhithunai aims to ensure women's safety by providing real-time safe route navigation.
+        Our application highlights well-lit streets, tracks travel paths, and alerts authorities in case of emergencies.
+        This empowers women, students, and professionals to move confidently and safely in their communities.
+    </p>
+</section>
+
+<section id="navigation">
+    <h2>Route Navigation Demo</h2>
+    <p>Here is a demo of how our route navigation works:</p>
+    <div class="map-container">
+        <!-- Embedded Google Map -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3151.835434509357!2d144.9630579153162!3d-37.81362797975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x6ad642af0f11fd81%3A0xf577f0a2d6786f3e!2sFederation%20Square!3m2!1d-37.8172095!2d144.955651!4m5!1s0x6ad642af0f11fd81%3A0xf577f0a2d6786f3e!2sFlinders%20Street%20Station!3m2!1d-37.8171577!2d144.967105!5e0!3m2!1sen!2sin!4v1696512000000!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or suggestions? Reach out to us:</p>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Vazhithunai. All rights reserved.
+</footer>
+
+</body>
+</html>
